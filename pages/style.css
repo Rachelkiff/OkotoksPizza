@@ -2,12 +2,12 @@ div p {
     background-color: yellow;
   }
  
-  div > p {
-    background-color: yellow;
+  div > a {
+    font-size: medium;
   }
 
   div + p {
-    background-color: yellow;
+    background-color: rgb(50, 21, 97), 0, 255);
   }
 
   .Story {
@@ -19,7 +19,7 @@ div p {
   }
 
   a:visited {
-    color: #00FF00;
+     font-family: cursive;
   }
 
   a:hover {
@@ -27,5 +27,5 @@ div p {
   }
 
   a:active {
-    color: #0000FF;
+     font-size: small;
   }
