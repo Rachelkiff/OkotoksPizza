@@ -1,31 +1,40 @@
-div p {
-    background-color: yellow;
-  }
+* {
+  margin: 0;
+  padding: 0;
+}
+
+#grid-conatiner {
+  display: grid;
+}
+
+#header{
+  width: 100%; 
+  height: 10vh; 
+  display: grid; 
+  
  
-  div > a {
-    font-size: medium;
-  }
+}
 
-  div + p {
-    background-color: rgb(50, 21, 97), 0, 255);
-  }
+#menu-header{
+  width: 100%; 
+  height: 10vh; 
+  display: grid; 
+  grid-template-columns: 50% 50%;
+ 
+}
+a{
+  font-size: xx-large;
+  text-align: center;
+  
+}
+h1{
+  font-size: x-large;
+  text-align: center;
+}
 
-  .Story {
-      font-size: medium;
-  }
+#menu-content{
+  width: 90%;
+  height: 70vh;
+  display: grid;
 
-  a:link {
-    color: #FF0000;
-  }
-
-  a:visited {
-     font-family: cursive;
-  }
-
-  a:hover {
-    color: #FF00FF;
-  }
-
-  a:active {
-     font-size: small;
-  }
+}
