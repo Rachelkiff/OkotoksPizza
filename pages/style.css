@@ -61,3 +61,22 @@ p{
   align-items: baseline; 
 }
 
+@media only screen and (min-width: 600px){
+  div{
+      background-color: blue;
+  }
+}
+
+@media only screen and (min-width: 800px){
+  div{
+    background-color: cyan;
+  }
+}
+
+@media only screen and (min-width: 1020px){
+  div{
+      background-color: crimson;
+  }
+}
+
+grid-template-columns: repeat( auto-fit, min-max, (250px, 1fr)) 
